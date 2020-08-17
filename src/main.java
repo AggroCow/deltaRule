@@ -46,6 +46,7 @@ public class main {
         if(actualValue == expectedTargetValue){
             System.out.println("Der Erwartete und tatsächliche Zielwert stimmen überein. Die Gewichte müssen nicht mehr verändert werden. Zielwert ist: "+actualValue+"\nGewichte: "+ listOfOldWeights.toString());
         }else{
+            System.out.println("Der tatsächliche Wert von" + actualValue + " stimmt nicht mit dem erwarteten Wert über ein. Wende Delta-Regel an.")
             //calculating new weights
             for(int i = 0; i< listOfInputValues.size(); i++){
                 double tmpValue = listOfOldWeights.get(i) + (learningRate * (expectedTargetValue - actualValue) * listOfInputValues.get(i));
