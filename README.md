@@ -1,7 +1,7 @@
 # Deltaregel Rechner
 Dies ist ein Tool, um Gewichte für ein Perzeptron eines Neuralen Netzwerkes zu berechnen.
 
-#Anwendung
+##Anwendung
 Es reicht des Code auszuführen und die Konsole zu beobachten, um alle Eingaben richtig zu tätigen.
 
 Weiterhin können Eingaben für "double"-Werte auch simpel wie Eingaben für "Integer"-Werte angesehen werden.
